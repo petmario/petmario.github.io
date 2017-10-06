@@ -1,0 +1,75 @@
+
+
+body, div.wrapper { font-family: Arial, Verdana, sans-serif; 
+					background-color:lightgreen; color: #665544; 
+					text-align:center; width: 1px
+					margin-top: 10px }
+   
+   
+div.logo {  text-align:left;  width: 150px;    
+			margin: 10px auto 25px auto;} 
+#nav { height:40px; text-align: center; }			
+			
+h4 {text-align:left; font-size: 16px}
+
+figure {text-align: center}
+ 
+/*ul {    width: 1000px;    padding: 15px; 
+		margin: 0px auto 0px auto; 
+		border-top: 2px solid #000; 
+		border-bottom: 1px solid #000; }
+ 
+ul { display: inline;    
+	margin-right: 80px; 
+	padding: 5px; text-align:center; } */
+	
+ul l1 { float:left; display:inline; width:180px; height:40px; line-height:40px; text-align:center; background-color:#efefef; font-size; 20px; }
+
+ul l1 ul l1 {display: none; } 
+
+ul l1:hover ul l1 {display: block; background-color: gray; color:brown; }
+
+p.trade { color:red }
+a {  text-decoration:none; }
+a:link { color: deeppink; text-decoration: none;} 
+a:visited { color: black;} 
+a:hover { color: deeppink; text-decoration: underline;} 
+a:active { color: darkcyan;} 
+a.news {text-decoration:none; color: black; font-size: 12px; }
+aside { text-align: left;}
+aside.search {text-align:right; }
+
+input { padding: 6px 12px 6px 12px; border: 0.5px solid #665544; color: black;} 
+input.submit:hover { background-color:gray;} 
+input.submit:active { background-color:gray;} 
+input.text { color:black;} 
+input.text:focus { color: brown;}
+
+div.entry {    width: 230px;    
+			float: left;    
+			margin: 10px;    height: 250px;    
+			background-image: url("images/zz.jpg");   
+			background-repeat: no-repeat;    /*background-position: bottom;*/}   
+			
+figure {    display: block;    width: 180px;    
+			height: 210px;    background-color: #e7e3d8;    
+			padding: 9px;    text-align: left;}   
+			
+figure img {    width: 180px;    height: 200px;   
+				border: 1px solid #d6d6d6;}  
+				
+figcaption {    background-image: url("images/zz.jpg");    
+				padding-left: 20px;    background-repeat: no-repeat;} 
+
+#footer {font-family: ChunkFiveRegular, Georgia, serif; 
+		font-size: 14px;
+		background-color:#efefef ; text-align:center;
+		width:1400px; height:65px; line-height:5px;
+		background-position: bottom; margin: 1px margin-top: 0px; 
+		overflow:auto; padding: 10px 0px; text-decoration:none;}
+
+body.contact {background-color:skyblue; color:chocolate; text-align:center; width:1200px; } 
+body.about { background-color:skyblue; color:chocolate; width:1200px; height:100px; 
+			text-align:center-right; font-family: Arial, Verdana, sans-serif;
+			font-size:15px;  word-spacing:1px; letter-spacing:0.5px;	}
+
